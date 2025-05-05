@@ -1,4 +1,4 @@
-# CACHETS  v0.0.1
+# CACHETS  v0.0.2
 
 **[Pense-bête pour prise de mes cachets anti-épileptiques](https://laz-r.github.io/cachets/)**
 
@@ -15,6 +15,10 @@ This is mostly a proof of concept so the code here is awfull, *I know*.
 ---
 
 ## Changelog
+
+### v 0.0.2
+05/05/2025
+- Fix CSS scroll historique
 
 ### v 0.0.1
 26/04/2025

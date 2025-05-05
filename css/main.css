@@ -267,11 +267,12 @@ html, body {
   position: fixed;
   top: var(--height--header);
   display: none;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
   gap: 16px;
   min-width: 100svw; width: 100svw; max-width: 100svw;
+  /* min-height: 250px; height: 250px; max-height: 250px; */
   min-height: calc(100svh - var(--height--header)); height: calc(100svh - var(--height--header)); max-height: calc(100svh - var(--height--header));
   background-color: var(--color--bg-100);
   overflow-y: scroll;

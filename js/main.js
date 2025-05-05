@@ -155,8 +155,8 @@ const renderHomepageHeader = () => {
 
 const renderHistorySection = () => {
   const user = getUser();
-  let str = '';
-  for (let dayBloc of user.history) {
+  let str = ``;
+  for (let dayBloc of user.history.reverse()) {
     str += getDayBlocIhm(dayBloc);
   }
   const historySection = document.getElementById('history');
@@ -206,6 +206,7 @@ const getDayBlocIhm = (dayBloc) => {
         </div>
       </div>
     </div>
+    
     ${date.getDay() === 1 ? '<hr>' : ''}
   `;
 }
